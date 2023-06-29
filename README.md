@@ -4,14 +4,13 @@ In this project, you will build a continuous integration pipeline using Cloud So
 
 ![0hYrmLCtV96fbLY7rct7Ue94xgf6OUG+O930FbxOeuA=](https://github.com/logicopslab/DevOpsProjectWithGCP/assets/82759985/c1dcc6c3-abb7-4925-8a71-b00b60ddbf80)
 
-**Prerequisites**
+**Prerequisites:**
 
 1) Google Cloud tools Cloud Source Repositories.
 2) Cloud Build.
 3) Build triggers. 
 4) Container Registry.
 
-And, a bit of familiarity with GCP. 
 
 **Objectives - In this lab, you will learn how to perform the following tasks:**
 
