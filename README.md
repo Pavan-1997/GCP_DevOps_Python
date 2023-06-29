@@ -120,14 +120,17 @@ You will now try running this image from a Compute Engine virtual machine.
 10) Click Create.
 11) Once the VM starts, create a browser tab and make a request to this new VM's external IP address. The program should work as before.
 **Note**: You might have to wait a minute or so after the VM is created for the Docker container to start.
-12) You will now save your changes to your Git repository. In Cloud Shell, enter the following to make sure you are in the right folder and add your new Dockerfile to Git:
+
+![GCP](https://github.com/Pavan-1997/GCP_DevOps_Python_Docker/assets/32020205/37943938-81de-4f35-91e3-4336eb9ac2d3)
+
+13) You will now save your changes to your Git repository. In Cloud Shell, enter the following to make sure you are in the right folder and add your new Dockerfile to Git:
 cd ~/gcp-course/devops-repo
 git add --all
-13) Commit your changes locally:
+14) Commit your changes locally:
 git commit -am "Added Docker Support"
-14) Push your changes to Cloud Source Repositories:
+15) Push your changes to Cloud Source Repositories:
 git push origin master
-15) Return to Cloud Source Repositories and verify that your changes were added to source control.
+16) Return to Cloud Source Repositories and verify that your changes were added to source control.
 
 **Task 5. Automate builds with triggers**
 
@@ -162,8 +165,11 @@ git push origin master
 
 **Task 6. Test your build changes**
 
-1) When the build completes, click on it to see its details. Under Execution Details, copy the Image link, format should be gcr.io/qwiklabs-gcp-00-f23112/devops-repoxx34345xx.
+1) When the build completes, click on it to see its details. Under Execution Details, copy the Image link
 2) Go to the Compute Engine service. As you did earlier, create a new virtual machine to test this image. Click DEPLOY CONTAINER and paste the image you just copied.
 3) Select Allow HTTP traffic.
 4) When the machine is created, test your change by making a request to the VM's external IP address in your browser. Your new message should be displayed.
 **Note**: You might have to wait a few minutes after the VM is created for the Docker container to start.
+
+![GCP_Pavan](https://github.com/Pavan-1997/GCP_DevOps_Python_Docker/assets/32020205/03d0fba5-64a3-49a7-9db7-972a4ed366ad)
+
