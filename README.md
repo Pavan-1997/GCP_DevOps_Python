@@ -116,7 +116,6 @@ You will now try running this image from a Compute Engine virtual machine.
 8) Click Create Instance to create a VM.
 9) On the Create an instance page, specify the following, and leave the remaining settings as their defaults:
 <img width="438" alt="image" src="https://github.com/logicopslab/DevOpsProjectWithGCP/assets/82759985/5cbedb42-bfdf-42fb-a7da-ca7298a69caf">
-
 10) Click Create.
 11) Once the VM starts, create a browser tab and make a request to this new VM's external IP address. The program should work as before.
 **Note**: You might have to wait a minute or so after the VM is created for the Docker container to start.
