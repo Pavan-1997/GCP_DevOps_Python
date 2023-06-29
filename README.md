@@ -56,7 +56,7 @@ You need some source code to manage. So, you will create a simple Python Flask w
 3) Click on devops-repo
 4) On the File menu, click New File
 5) Paste the following code into the file you just created:
-https://github.com/P/DevOpsProjectWithGCP/blob/main/main.py
+https://github.com/Pavan-1997/GCP_DevOps_Python_Docker/blob/main/main.py
 6) To save your changes. Press CTRL + S, and name the file as main.py.
 7) Click on SAVE
 8) Click on the devops-repo folder.
